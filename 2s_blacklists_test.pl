@@ -13,6 +13,8 @@ use POSIX;
 $ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0;
 $ENV{SSL_VERIFY_NONE} = 0x00;
 
+binmode(STDOUT, 'utf8');
+
 # Создаем объект JSON.
 my $json_xs = JSON::XS->new->ascii->pretty->allow_nonref;
 $json_xs->utf8(1);
