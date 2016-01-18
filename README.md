@@ -1,5 +1,7 @@
 # 2s_blacklists_test.pl
 
 Usage example,
+./2s_blacklists_test.pl -f /var/log/apache2/cleantalk.org.access_log
 
- sudo cat /var/log/apache2/cleantalk.ru.access_log | ./2s_blacklists_test.pl
+Or load logs from a directory,
+./2s_blacklists_test.pl -d /var/log/apache2/
