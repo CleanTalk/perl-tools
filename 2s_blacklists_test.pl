@@ -49,7 +49,7 @@ my $server_endpoint = "https://api.cleantalk.org/";
 # add POST data to HTTP request body
 my %post_data = (
     "method_name" => "2s_blacklists_db",
-    "auth_key" => "liemouse"
+    "auth_key" => ""
 );
 
 my $ua = LWP::UserAgent->new(); 
